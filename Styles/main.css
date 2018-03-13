@@ -60,7 +60,7 @@ nav ul li a:hover{
   background-color: blue;
   transition-property: width,height,background-color,border;
   transition-duration: 1s;
-  transition-delay: 1s,2s,2s,3s;
+  transition-delay: 0s,1s,1s,2s;
 
 }
 .container2:hover{
@@ -358,4 +358,217 @@ nav ul li a:hover{
   border-radius: 50%;
   margin-right: 20px;
   margin-bottom: 20px;
+}
+.container7 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  margin:auto;
+  right: 0;
+  top: 0;
+  left:  0;
+  bottom: 0;
+  background-color: #01DF01;
+  transition-property: width,height,border,background-color;
+  transition-duration: 1s;
+  transition-delay: 0s,0s,1s,2s;
+}
+.container7 article:first-child{
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  margin:0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  background-color: #01DFD7;
+  border-radius: 50px;
+  transition-property: margin-top,margin-left,width,height,border-radius,border,background-color;
+  transition-duration: 1s;
+  transition-delay:3s,3s,4s,4s,5s,6s;
+}
+.container7 article:nth-child(2){
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  margin:auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  background-color: #01DFD7;
+  border-radius: 50px;
+  transition-property: width,height,border-radius,border-top,border-right,border-bottom,border-left,background-color;
+  transition-duration: 1s;
+  transition-delay:11s,11s,12s,13s,14s,15s,16s,17s;
+}
+.container7 article:nth-child(3){
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  margin:0;
+  right: 0;
+  bottom: 0;
+  background-color: #01DFD7;
+  border-radius: 50px;
+  transition-property: margin-bottom,margin-right,width,height,border-radius,border,background-color;
+  transition-duration: 1s;
+  transition-delay:7s,7s,8s,8s,9s,10s;
+}
+.container7:hover{
+  width: 400px;
+  height: 400px;
+  border: solid red 5px;
+  box-sizing: border-box;
+  background-color: #FFBF00;
+}
+.container7:hover>article:first-child{
+  width: 90px;
+  height: 90px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 0px;
+  background-color: blue;
+  border: solid #DF3A01 4px;
+  box-sizing: border-box;
+}
+.container7:hover>article:nth-child(2){
+  width: 90px;
+  height: 90px;
+  border-radius: 0px;
+  background-color: blue;
+  border-top: solid #DF3A01 4px;
+  border-right: solid yellow 4px;
+  border-bottom: solid #FE2E9A 4px;
+  border-left: solid #00FF00 4px;
+  box-sizing: border-box;
+}
+.container7:hover>article:nth-child(3){
+  width: 90px;
+  height: 90px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 0px;
+  background-color: blue;
+  border: solid #DF3A01 4px;
+  box-sizing: border-box;
+}
+.container8{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  margin:auto;
+  right: 0;
+  top: 0;
+  left:  0;
+  bottom: 0;
+  background-color: red;
+  transition-property: width,height,border,background-color;
+  transition-duration: 1s;
+  transition-delay: 0s,1s,2s,3s;
+}
+.container8:hover{
+width: 400px;
+height: 400px;
+border: solid yellow 10px;
+background-color: blue;
+box-sizing: border-box;
+}
+.container8 nav:first-child{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin:auto;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: red;
+  border-radius: 50px;
+  transition-property: margin-top,margin-left,border-radius;
+  transition-duration: 1s;
+  transition-delay:4s,4s,5s;
+}
+.container8 nav:nth-child(2){
+ width: 100px;
+ height: 100px;
+ position: absolute;
+ margin: auto;
+ right: 0;
+ left: 0;
+ top:0;
+ bottom: 0;
+ background-color: red;
+ border-radius: 50%;
+ transition-duration:1s;
+ transition-property:margin-top,margin-left,border-radius;
+ transition-delay:4s;
+}
+.container8 nav:nth-child(3){
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin:auto;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: red;
+  border-radius: 50px;
+  transition-property: border-radius;
+  transition-duration: 1s;
+  transition-delay:6s;
+}
+.container8 nav:nth-child(4){
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin:auto;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: red;
+  border-radius: 50px;
+  transition-property: margin-bottom,margin-right,border-radius;
+  transition-duration: 1s;
+  transition-delay:6s,6s,7s;
+}
+.container8 nav:nth-child(5){
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin:auto;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: red;
+  border-radius: 50px;
+  transition-property: margin-bottom,margin-left,border-radius;
+  transition-duration: 1s;
+  transition-delay:6s,6s,7s;
+}
+.container8:hover>nav:first-child{
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 0px;
+}
+.container8:hover>nav:nth-child(2){
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius: 0px;
+}
+.container8:hover>nav:nth-child(3){
+  border-radius: 0px;
+}
+.container8:hover>nav:nth-child(4){
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 0px;
+}
+.container8:hover>nav:nth-child(5){
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 0px;
 }
